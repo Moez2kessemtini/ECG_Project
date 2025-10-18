@@ -52,20 +52,6 @@ You can install the required Python packages using:
 ```bash
 pip install -r requirements.txt
 ```
-
-If you don’t have a requirements file yet, create one with the following content:
-
-```text
-wfdb
-numpy
-scipy
-matplotlib
-torch
-pandas
-```
-
----
-
 ## 📂 Usage
 
 Each dataloader can be used independently depending on the dataset.
@@ -161,12 +147,3 @@ Final-Year Computer Engineering Student @ National Engineering School of Sfax (E
 
 ---
 
-## 📜 License
-
-This project is released under the **MIT License** — you are free to use, modify, and distribute it for research and educational purposes.
-
----
-
-## ⭐ Acknowledgments
-
-Special thanks to open-source contributors and researchers in the field of biomedical signal processing and PhysioNet for making ECG datasets publicly available.
